@@ -1,0 +1,490 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5705771800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should open new bank account",
+        "description": "",
+        "id": "open-new-account;user-should-open-new-bank-account",
+        "after": [
+          {
+            "result": {
+              "duration": 712626300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 69741600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on homepage",
+            "match": {
+              "location": "CustomerLoginSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 220714300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Bank Manager Login Tab",
+            "match": {
+              "location": "OpenAccountSteps.userClicksOnBankManagerLoginTab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 224517700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click On Open Account Tab",
+            "match": {
+              "location": "OpenAccountSteps.userClickOnOpenAccountTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20476594700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User searchs customer that added",
+            "match": {
+              "location": "OpenAccountSteps.userSearchsCustomerThatAdded()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107248500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User selects currency Pound",
+            "match": {
+              "location": "OpenAccountSteps.userSelectsCurrencyPound()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76880500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on process button",
+            "match": {
+              "location": "OpenAccountSteps.userClicksOnProcessButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6746200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User switches to Popup Alert displayed",
+            "match": {
+              "location": "OpenAccountSteps.userSwitchesToPopupAlertDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15234400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Verifies message Account created successfully on alert",
+            "match": {
+              "location": "OpenAccountSteps.userVerifiesMessageAccountCreatedSuccessfullyOnAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9331100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Click on ok button on popup and accepts popup",
+            "match": {
+              "location": "OpenAccountSteps.userClickOnOkButtonOnPopupAndAcceptsPopup()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Open New Account",
+    "description": "",
+    "id": "open-new-account",
+    "keyword": "Feature",
+    "uri": "OpenNewAccount.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smoke"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2307968200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Bank ManagerShould Add Customer Succesfully",
+        "description": "",
+        "id": "xyz-bank;bank-managershould-add-customer-succesfully",
+        "after": [
+          {
+            "result": {
+              "duration": 746325400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Homepage",
+            "match": {
+              "location": "LoginSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208132000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Manager Login Button",
+            "match": {
+              "location": "LoginSteps.userClicksOnManagerLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 223951100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Add customer tab",
+            "match": {
+              "location": "LoginSteps.userClicksOnAddCustomerTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1053668100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User adds Firstname to name field",
+            "match": {
+              "location": "LoginSteps.userAddsFirstnameToNameField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71198700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User adds Lastname to lastname field",
+            "match": {
+              "location": "LoginSteps.userAddsLastnameToLastnameField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109663100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters postcode",
+            "match": {
+              "location": "LoginSteps.userEntersPostcode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74989200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Add to Customer button",
+            "match": {
+              "location": "LoginSteps.userClicksOnAddToCustomerButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5576200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User switches to Alert tab",
+            "match": {
+              "location": "LoginSteps.userSwitchesToAlertTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9868700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User gets text from Alert",
+            "match": {
+              "location": "LoginSteps.userGetsTextFromAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8204500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User verifies text from Alert",
+            "match": {
+              "location": "LoginSteps.userVerifiesTextFromAlert()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13757300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User accepts the Alert",
+            "match": {
+              "location": "LoginSteps.userAcceptsTheAlert()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "XYZ Bank",
+    "description": "",
+    "id": "xyz-bank",
+    "keyword": "Feature",
+    "uri": "addNewCustomer.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@sanity"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3324022600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Customer Should Login And Logout Suceessfully",
+        "description": "",
+        "id": "customer-login-page;customer-should-login-and-logout-suceessfully",
+        "after": [
+          {
+            "result": {
+              "duration": 819111000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on homepage",
+            "match": {
+              "location": "CustomerLoginSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 382867500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Clicks on Customer Login Tab",
+            "match": {
+              "location": "CustomerLoginSteps.userClicksOnCustomerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20381972400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Search customer that you created.",
+            "match": {
+              "location": "CustomerLoginSteps.userSearchCustomerThatYouCreated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80995000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Clicks on Login Button",
+            "match": {
+              "location": "CustomerLoginSteps.userClicksOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 539929200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Verifies Your Name text displayed.",
+            "match": {
+              "location": "CustomerLoginSteps.userVerifiesYourNameTextDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40366900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User verifies Logout text displayed",
+            "match": {
+              "location": "CustomerLoginSteps.userVerifiesLogoutTextDisplayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44148600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Clicks on Logout button",
+            "match": {
+              "location": "CustomerLoginSteps.userClicksOnLogoutButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20937400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User verifies Name text displayed",
+            "match": {
+              "location": "CustomerLoginSteps.userVerifiesNameTextDisplayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Customer Login Page",
+    "description": "",
+    "id": "customer-login-page",
+    "keyword": "Feature",
+    "uri": "customerLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
